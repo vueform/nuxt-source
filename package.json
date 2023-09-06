@@ -1,7 +1,10 @@
 {
+  "publishConfig": {
+    "registry": "https://source.vueform.com"
+  },
+  "private": false,
   "name": "@vueform/nuxt",
   "version": "1.0.0",
-  "private": false,
   "description": "Nuxt module for Vueform SDK source.",
   "repository": {
     "type": "git",

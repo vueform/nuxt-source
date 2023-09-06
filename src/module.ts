@@ -59,7 +59,7 @@ const module: NuxtModule<ModuleOptions> = defineNuxtModule<ModuleOptions>({
 
         export default defineNuxtPlugin(async (nuxtApp) => {
           if (process.client) {
-            const Vueform = (await import('@vueform/vueform/plugin.js')).default
+            const Vueform = (await import('@vueform/vueform/src/plugin.js')).default
             const vueformConfig = (await import('${configPath}')).default
             
             nuxtApp.vueApp.use(Vueform, vueformConfig)
